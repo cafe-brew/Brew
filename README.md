@@ -60,7 +60,7 @@ The development server runs at `http://localhost:8000`. If this port is taken, t
 
 4.  Install dependencies
     ```shell
-    pip install -r requirements.txt
+    pip install -r requirements.txt -r requirements-dev.txt
     ```
 
 ## Develop
@@ -85,3 +85,10 @@ npm start
 ```
 
 This will start FastAPI's development server running on a Uvicorn server on port 8000.
+
+## Helpful VSCode Extensions
+
+-   [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for Python linting, intellisense, etc.
+-   [Mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker) for Python type checking
+-   [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) for Python code formatting
+-   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting on file save or set to a keybind
